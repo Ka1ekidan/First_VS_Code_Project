@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: aqua;
+}
+.navbar {
+    background-color: azure;
+}
+
+footer *{
+    background-color: black;
+    color: white;
+}
+
+footer .card-header {
+    background-color: black;
+    color: white;
+}
+footer .card-title {
+    color: white;
+    background-color: black;
+}
