@@ -1,9 +1,16 @@
 body {
     background-color: black;
-    color: aqua;
+    color: aqua;   
 }
 .navbar {
     background-color: azure;
+}
+
+main div, h1{
+    width: 95%;
+    height: auto; 
+    display: flex;
+    justify-content: center;
 }
 
 footer *{
@@ -18,4 +25,42 @@ footer .card-header {
 footer .card-title {
     color: white;
     background-color: black;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery .gallery-item  {
+    margin: 10px;
+    width: 37rem;
+    height: auto;
+}
+
+.comtainer .col {
+    width: 20rem;
+    height: auto;
+}
+
+main p {
+    width: 75%;;
+}
+
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cars img {
+    width: 30rem;
+    margin: 10px;
+}
+
+button{
+    margin: 5px;
 }
