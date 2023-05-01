@@ -46,7 +46,7 @@ footer .card-title {
 }
 
 main p {
-    width: 75%;;
+    width: 55%;;
 }
 
 .cars {
@@ -61,6 +61,16 @@ main p {
     margin: 10px;
 }
 
+.cars p {
+    margin: 20px;
+    width: 70%;
+}
+
 button{
     margin: 5px;
+}
+
+iframe {
+    width: 60%;
+    margin: 25px;
 }
